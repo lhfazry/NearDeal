@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add_store"
+        android:icon="@drawable/ic_action_add"
+        android:title="Add Store"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/list_mode"
+        android:title="List Mode"
+        app:showAsAction="never"/>
+</menu>
