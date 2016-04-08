@@ -19,6 +19,7 @@ import com.fazrilabs.neardeal.model.Store;
 import com.fazrilabs.neardeal.util.BitmapUtil;
 import com.fazrilabs.neardeal.util.MyRequest;
 import com.fazrilabs.neardeal.util.PopupUtil;
+import com.google.android.gms.iid.InstanceID;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -122,6 +123,7 @@ public class DetailActivity extends AppCompatActivity {
                     }
                 });
 
+        
         MyRequest.getInstance(this).addToRequestQueue(jsonRequest);
     }
 
